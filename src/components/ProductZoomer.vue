@@ -82,7 +82,6 @@
 								.querySelector("." + this.zoomer_box)
 								.getBoundingClientRect();
 						let customStyle = "";
-						console.log(rect)
 						if (this.options.pane === "pane") {
 							customStyle =
 									"width:" +
