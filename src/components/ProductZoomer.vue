@@ -230,7 +230,8 @@
                   @click="chooseThumb(thumb, $event)"
                   v-for="(thumb, key) in thumbs"
                   class="responsive-image thumb"
-                  v-bind:style="{'boxShadow' : thumb.id === choosedThumb.id ? '0 8px 17px rgba(42, 60, 78, 0.18)' : ''}"
+                  v-bind:style="{'boxShadow' : thumb.id === choosedThumb.id ? '0 8px 17px rgba(42, 60, 78, 0.18)' : '',
+                   'height': options.preview_card_width + 'px'}"
                   :class="{'choosed-thumb': thumb.id === choosedThumb.id}">
         </div>
         <div
@@ -291,6 +292,7 @@
   transform: rotate(90deg);
 }
 .thumb {
+  object-fit: contain;
   border: 1px solid #e8eaf0;
   background-color: #ffffff;
 }
