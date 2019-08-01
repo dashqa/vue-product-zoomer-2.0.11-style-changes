@@ -9,7 +9,7 @@
             {
               id: 1,
               url:
-                "https://cdn1.radikalno.ru/uploads/2019/7/31/3c33d327b4139c30a493f5d686b972fd-full.png"
+                "https://yoohooworld.com/assets/images/vue_product_zoomer/thumbs/1.jpeg"
             },
             {
               id: 2,
@@ -56,7 +56,7 @@
             {
               id: 1,
               url:
-                "https://cdn1.radikalno.ru/uploads/2019/7/31/3c33d327b4139c30a493f5d686b972fd-full.png"
+                "https://yoohooworld.com/assets/images/vue_product_zoomer/normal_size/1.jpeg"
             },
             {
               id: 2,
